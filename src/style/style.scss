@@ -19,6 +19,16 @@
 	color: red !important;
 }
 
+a {
+	color: black;
+	font-style: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+
+}
+
 .navbar-center {
 	margin-left: auto;
 	margin-right: auto;
