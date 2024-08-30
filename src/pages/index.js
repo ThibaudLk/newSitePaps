@@ -2,27 +2,26 @@ import React from 'react'
 
 import Layout from '../components/layout'
 import SEO from "../components/seo"
-import fleur from "../images/fleur1920.jpg"
+import { StaticImage } from "gatsby-plugin-image"
 import { Link } from 'react-scroll'
 
 const IndexPage = () => (
-   <Layout>
+  <Layout>
     <SEO title="index" />
-    <section className="hero is-fullheight" style={{ backgroundImage: 'url(' + fleur + ')', backgroundSize: "cover" }}>
+    <section className="hero is-background-black has-text-white">
       <div className="hero-body">
-        <div className="container has-text-centered">
-          <h1 className="title is-1">Mon nom</h1>
-          <h2> petite citation stylée </h2>
+        <div className="container">
+          <div id="specnav" className="grid" style={{ marginBottom: 16}}>
+            <div class="cell" style={{ margin: "auto", padding: 10 }} ><Link to="/"><StaticImage style={{ border: "1px solid white" }} src="../images/petitchap.png" alt="Affiche" /></Link></div>
+            <div class="cell" style={{ margin: "auto", padding: 10 }} ><Link to="/"><StaticImage style={{ border: "1px solid white" }} src="../images/petitchap.png" alt="Affiche" /></Link></div>
+            <div class="cell" style={{ margin: "auto", padding: 10 }} ><Link to="/"><StaticImage style={{ border: "1px solid white" }} src="../images/petitchap.png" alt="Affiche" /></Link></div>
+            <div class="cell" style={{ margin: "auto", padding: 10 }} ><Link to="/"><StaticImage style={{ border: "1px solid white" }} src="../images/petitchap.png" alt="Affiche" /></Link></div>
+            <div class="cell" style={{ margin: "auto", padding: 10 }} ><Link to="/"><StaticImage style={{ border: "1px solid white" }} src="../images/petitchap.png" alt="Affiche" /></Link></div>
+            <div class="cell" style={{ margin: "auto", padding: 10 }} ><Link to="/"><StaticImage style={{ border: "1px solid white" }} src="../images/petitchap.png" alt="Affiche" /></Link></div>
+          </div>
+        <h1 class="subtitle has-text-white has-text-centered">Des spectacles de qualité pour tous les publics !!</h1>
         </div>
-        <span className="cta-btn cta-btn--hero" style={{ position: "absolute", bottom: 0, left: "45%", marginBottom: 10 }}>
-         <Link to="suite" smooth duration={1000}>
-            Découvrir
-         </Link>
-         </span>
       </div>
-    </section>
-    <section id="suite" className="hero is-fullheight">
-      YOYO
     </section>
   </Layout>
 )
