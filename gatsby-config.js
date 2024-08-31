@@ -9,10 +9,10 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Bulma Starter`,
-    description: `Un Starter simple intégrant Bulma, SCSS et la gestion d'images`,
+    title: `Théâtre du Petit Pierre`,
+    description: `Un joli site pour le TPP`,
     author: `@devDurable`,
-    siteUrl: `https://thibaud-larriere.netlify.app/`,
+    siteUrl: `https://theatredupetitpierre.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-image`,

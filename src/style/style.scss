@@ -19,6 +19,10 @@
 	color: red !important;
 }
 
+.has-text-lily {
+	color: purple !important;
+}
+
 a {
 	color: black;
 	font-style: bold;
@@ -29,28 +33,26 @@ a:hover {
 
 }
 
-.navbar-center {
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-  }
-
-.center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+@media screen and (min-width: 1028px) {
+	.navbar-center {
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 .footer {
 	display: flex;
 	padding: 1.5rem 1.5rem;
 	line-height: 1.5rem;
+
 	a {
 		border-bottom: 1px solid;
 		color: black;
 	}
+
 	a:hover {
 		color: $secondary-color;
 	}
@@ -58,32 +60,32 @@ a:hover {
 
 /* faire ressembler les boutons à des liens */
 .link-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
 }
 
 .link-button:hover,
 .link-button:focus {
-text-decoration: none;
+	text-decoration: none;
 }
 
-.hero.is-fullheight:first-of-type{
-	height:91vh !important;
+.hero.is-fullheight:first-of-type {
+	height: 91vh !important;
 	min-height: 91vh !important;
 }
 
 .full-width-image {
-  width: 100vw;
-  height: 400px;
-  background-size: cover;
-  background-position: bottom;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+	width: 100vw;
+	height: 400px;
+	background-size: cover;
+	background-position: bottom;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-#specnav > *:hover {
+#specnav>*:hover {
 	background-color: rgba(192, 192, 192, 0.3);
 }
 
@@ -100,6 +102,6 @@ text-decoration: none;
 	color: white;
 	margin: auto;
 	padding: 6px;
-	border : 1px solid black;
+	border: 1px solid black;
 	border-radius: 4pt;
 }

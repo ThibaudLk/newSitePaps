@@ -12,11 +12,11 @@ const LilyEtLeLoupPage = () => (
   <Layout>
     <SEO title="Spectacle du Petit Chaperon Rouge" />
     <section className="hero has-background-black has-text-justify has-text-white is-size-5 p-4">
-      <h1 className="title is-2 has-text-centered has-text-pcr">Lily et le Loup</h1>
+      <h1 className="title is-2 has-text-lily has-text-centered">Lily et le Loup</h1>
       <h3 className="has-text-centered"><i>Un spectacle écrit et mis en scène par Francis L.Kagenaar, comédien</i></h3>
       <div className="hero-body columns is-multiline is-vcentered">
         <div className="column is-offset-2 is-3 has-text-centered">
-          <StaticImage src="../images/petitchap.png" alt="petitchap" style={{ borderRadius: 8 }} />
+          <StaticImage width={328} src="../images/affiches/afficheLily.jpg" alt="affiche Lily et le Loup" style={{ borderRadius: 8, border: "2px solid white" }} />
         </div>
         <div className="column is-6 is-12-mobile">
           <p> Maître Adalbert Tripette et Dame Perrine ont six jolies
@@ -34,21 +34,39 @@ const LilyEtLeLoupPage = () => (
       <div className="publicMaternellePrimaire" style={{ backgroundColor: "purple" }}> public : maternelles & primaires</div>
       <div className="column is-offset-2 is-8">
         <p>Librement inspiré du  livre de <b><i>Didier Herlem</i></b> (« L’histoire du petit garçon qui était une petite fille ») <br />
-          <b><font color="red">« Lily et le Loup »</font></b> est un spectacle de <b>théâtre masqué</b>, de <b>marionnettes</b>, de <b>théâtre d’ombres</b>. La musique y est très présente tant par les <b>nombreuses comptines</b> que par la <b>voix de contre-ténor</b> du comédien/chanteur. Différentes scénettes forment le décor et illustrent les multiples univers qui  composent cette histoire : <b>la maison du loup, l’univers de Dame Perrine et de ses filles, l’espace de Maitre Adalbert Tripette</b> et enfin l’espace du <b>conteur</b> et de la <b>musique</b>… </p>
+          <b><font color="purple">« Lily et le Loup »</font></b> est un spectacle de <b>théâtre masqué</b>, de <b>marionnettes</b>, de <b>théâtre d’ombres</b>. La musique y est très présente tant par les <b>nombreuses comptines</b> que par la <b>voix de contre-ténor</b> du comédien/chanteur. Différentes scénettes forment le décor et illustrent les multiples univers qui  composent cette histoire : <b>la maison du loup, l’univers de Dame Perrine et de ses filles, l’espace de Maitre Adalbert Tripette</b> et enfin l’espace du <b>conteur</b> et de la <b>musique</b>… </p>
       </div>
     </section>
 
     <section className="hero p-4">
-      <div className="hero-body columns">
-        <div className="column is-6 is-offset-2">
-          Photos
+      <div className="hero-body columns is-vcentered">
+        <div class="column is-6">
+        <h1 className="title is-3 has-text-centered has-text-lily m-2">Photos du spectacle</h1>
+          <div class="columns is-multiline is-vcentered">
+            <div className="column"><StaticImage width={512} src="../images/lily/dpavecsesfilles.jpg" alt="imageLily" style={{ borderRadius: 4 }} /></div>
+            <div className="column"><StaticImage width={512} src="../images/lily/ombresavecpoules.jpg" alt="imageLily" style={{ borderRadius: 4 }} /></div>
+          </div><div className="columns is-vcentered">
+            <div className="column"><StaticImage width={512} src="../images/lily/matcouteau.jpg" alt="imageLily" style={{ borderRadius: 4 }} /></div>
+            <div className="column"><StaticImage width={512} src="../images/lily/lilydanslatanièreavecleloup.jpg" alt="imageLily" style={{ borderRadius: 4 }} /></div>
+            <div className="column"><StaticImage width={512} src="../images/lily/dpaccouche.jpg" alt="imageLily" style={{ borderRadius: 4 }} /></div>
+          </div>
         </div>
-        <div className="column is-4">
-          Vidéos
+        <div className="column is-4 is-offset-1">
+          <div className="video">
+            <h1 className="title is-3 has-text-centered has-text-lily m-2">Extraits vidéo</h1>
+            <iframe
+              src={"https://www.youtube.com/embed/bgG6iz2bEjs"}
+              width="100%" height={328}
+              title={"Vidéo du Petit Chaperon Rouge"}
+              webkitallowfullscreen="true"
+              mozallowfullscreen="true"
+              allowFullScreen
+            />
+          </div>
         </div>
       </div>
     </section>
-    <section className="hero has-background-white p-4">
+    <section className="hero has-background-white p-4" style={{ borderTop: "4px solid purple" }}>
       <h1 className="title is-2 has-text-centered m-2">Extraits du Livre d'Or</h1>
       <div className="hero-body columns is-multiline">
         <div className="column is-4"
@@ -140,12 +158,9 @@ const LilyEtLeLoupPage = () => (
                 Obscurité non indispensable, mais pénombre souhaitée.</p>
             </div>
             <br />
-            <div className="columns has-text-pcr has-text-centered">
+            <div className="columns has-text-lily has-text-centered">
               <div className="column">
                 <a href="/pdf/tarifs-theatre-du-petit-pierre.pdf" target="_blank"><p><FontAwesomeIcon icon={faDownload} size="2x" /> Consulter le PDF des tarifs </p></a>
-              </div>
-              <div className="column">
-                <a href="/pdf/dossier-de-presse-fiche-technique-pcr.pdf" target="_blank"><p><FontAwesomeIcon icon={faDownload} size="2x" /> Télécharger le dossier de presse et la fiche technique</p></a>
               </div>
             </div>
           </div>

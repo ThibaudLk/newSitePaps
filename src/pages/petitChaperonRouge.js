@@ -16,7 +16,7 @@ const PetitChaperonRougePage = () => (
       <h3 className="has-text-centered"><i>Un spectacle écrit et mis en scène par Francis L.Kagenaar, comédien</i></h3>
       <div className="hero-body columns is-multiline is-vcentered">
         <div className="column is-offset-2 is-3 has-text-centered">
-          <StaticImage src="../images/petitchap.png" alt="petitchap" style={{ borderRadius: 8 }} />
+          <StaticImage width={328} src="../images/affiches/afficheChap.jpg" alt="petitchap" style={{ borderRadius: 8 }} />
         </div>
         <div className="column is-offset-1 is-5 is-12-mobile">
           <p> La plus célèbre de toutes les histoires méritait une attention toute particulière. C’est chose faite avec cette adaptation <b>poétique, musicale, très colorée </b>et <b>remplie d’humour</b> du<b> Petit Chaperon rouge</b>.<br />
@@ -33,16 +33,25 @@ const PetitChaperonRougePage = () => (
     </section>
 
     <section className="hero p-4">
-      <div className="hero-body columns">
-        <div className="column is-5 is-offset-2">
-          Photos
+      <div className="hero-body columns is-vcentered">
+        <div class="column is-6">
+        <h1 className="title is-3 has-text-centered has-text-pcr m-2">Photos du spectacle</h1>
+          <div class="columns is-multiline is-vcentered">
+            <div className="column"><StaticImage width={512} src="../images/petitChap/dsc2431.jpg" alt="imagePetitChaperon" style={{ borderRadius: 4 }} /></div>
+            <div className="column"><StaticImage width={512} src="../images/petitChap/loup25.jpg" alt="imagePetitChaperon" style={{ borderRadius: 4 }} /></div>
+          </div><div className="columns is-vcentered">
+            <div className="column"><StaticImage width={512} src="../images/petitChap/grandmère1.jpg" alt="imagePetitChaperon" style={{ borderRadius: 4 }} /></div>
+            <div className="column"><StaticImage width={512} src="../images/petitChap/larbre.jpg" alt="imagePetitChaperon" style={{ borderRadius: 4 }} /></div>
+            <div className="column"><StaticImage width={512} src="../images/petitChap/petitchaperonseul.jpg" alt="imagePetitChaperon" style={{ borderRadius: 4 }} /></div>
+            <div className="column is-4"><StaticImage width={512} src="../images/petitChap/dsc2445.jpg" alt="imagePetitChaperon" style={{ borderRadius: 4 }} /></div>
+          </div>
         </div>
-        <div className="column is-4">
+        <div className="column is-4 is-offset-1">
           <div className="video">
-          <h1 className="title is-3 has-text-centered has-text-pcr m-2">Extraits vidéo</h1>
+            <h1 className="title is-3 has-text-centered has-text-pcr m-2">Extraits vidéo</h1>
             <iframe
               src={"https://www.youtube.com/embed/bgG6iz2bEjs"}
-              width="512" height="360"
+              width="100%" height={328}
               title={"Vidéo du Petit Chaperon Rouge"}
               webkitallowfullscreen="true"
               mozallowfullscreen="true"

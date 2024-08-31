@@ -12,11 +12,11 @@ const Les3cheveuxdOrPage = () => (
   <Layout>
     <SEO title="Spectacle du Petit Chaperon Rouge" />
     <section className="hero has-background-black has-text-justify has-text-white is-size-5 p-4">
-      <h1 className="title is-2 has-text-centered has-text-pcr">Les 3 cheveux d’Or du Diable </h1>
+      <h1 className="title is-2 has-text-centered" style={{ color: "#FFC003" }}>Les 3 cheveux d’Or du Diable </h1>
       <h3 className="has-text-centered"><i>Un spectacle écrit et mis en scène par Francis L.Kagenaar, comédien - Mise en scène Pascal Godart</i></h3>
       <div className="hero-body columns is-multiline is-vcentered">
         <div className="column is-offset-2 is-3 has-text-centered">
-          <StaticImage src="../images/petitchap.png" alt="petitchap" style={{ borderRadius: 8 }} />
+          <StaticImage width={328} src="../images/affiches/affiche3ChevOr.jpg" alt="affiche les 3 cheveux d'Or du Diable" style={{ borderRadius: 8 }} />
         </div>
         <div className="column is-6 is-12-mobile">
           <p> On a prédit à un « enfant du bonheur » qu’il épouserait la fille du roi à l’âge de quatorze ans... Apprenant cela, ce roi, méchant et orgueilleux, cherche à se débarrasser de cet enfant trop encombrant. <br />
@@ -44,12 +44,31 @@ const Les3cheveuxdOrPage = () => (
     </section>
 
     <section className="hero p-4">
-      <div className="hero-body columns">
-        <div className="column is-6 is-offset-2">
-          Photos
+      <div className="hero-body columns is-vcentered">
+        <div class="column is-6">
+        <h1 className="title is-3 has-text-centered has-text-pcr m-2">Photos du spectacle</h1>
+          <div class="columns is-multiline is-vcentered">
+            <div className="column"><StaticImage width={512} src="../images/3cheveuxdOr/1485.jpg" alt="image3cheveuxdOr" style={{ borderRadius: 4 }} /></div>
+            <div className="column"><StaticImage width={512} src="../images/3cheveuxdOr/1468.jpg" alt="image3cheveuxdOr" style={{ borderRadius: 4 }} /></div>
+            <div className="column"><StaticImage width={512} src="../images/3cheveuxdOr/1555.jpg" alt="image3cheveuxdOr" style={{ borderRadius: 4 }} /></div>
+          </div><div className="columns is-vcentered">
+            <div className="column"><StaticImage width={512} src="../images/3cheveuxdOr/1575.jpg" alt="image3cheveuxdOr" style={{ borderRadius: 4 }} /></div>
+            <div className="column"><StaticImage width={512} src="../images/3cheveuxdOr/1587.jpg" alt="image3cheveuxdOr" style={{ borderRadius: 4 }} /></div>
+            <div className="column is-4"><StaticImage width={512} src="../images/3cheveuxdOr/1595.jpg" alt="image3cheveuxdOr" style={{ borderRadius: 4 }} /></div>
+          </div>
         </div>
-        <div className="column is-4">
-          Vidéos
+        <div className="column is-4 is-offset-1">
+          <div className="video">
+            <h1 className="title is-3 has-text-centered has-text-pcr m-2">Extraits vidéo</h1>
+            <iframe
+              src={"https://www.youtube.com/embed/9kN3haXy0lQ"}
+              width="100%" height={328}
+              title={"Vidéo des 3 cheveux d'Or"}
+              webkitallowfullscreen="true"
+              mozallowfullscreen="true"
+              allowFullScreen
+            />
+          </div>
         </div>
       </div>
     </section>
@@ -106,9 +125,6 @@ const Les3cheveuxdOrPage = () => (
             <div className="columns has-text-pcr has-text-centered">
               <div className="column">
                 <a href="/pdf/tarifs-theatre-du-petit-pierre.pdf" target="_blank"><p><FontAwesomeIcon icon={faDownload} size="2x" /> Consulter le PDF des tarifs </p></a>
-              </div>
-              <div className="column">
-                <a href="/pdf/dossier-de-presse-fiche-technique-pcr.pdf" target="_blank"><p><FontAwesomeIcon icon={faDownload} size="2x" /> Télécharger le dossier de presse et la fiche technique</p></a>
               </div>
             </div>
           </div>
