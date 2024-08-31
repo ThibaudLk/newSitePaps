@@ -72,7 +72,7 @@ const Les3cheveuxdOrPage = () => (
         </div>
       </div>
     </section>
-    <section className="hero has-background-white p-4">
+    <section className="hero has-background-white p-4"  style={{ borderTop: "4px solid #FFC003" }}>
       <h1 className="title is-2 has-text-centered m-2">Extraits du Livre d'Or</h1>
       <div className="hero-body columns is-multiline">
         <div className="column is-offset-2 is-8"
