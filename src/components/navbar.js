@@ -48,7 +48,7 @@ const Navbar = ({ toggleNavbar, isActive }) => {
 									Les 3 petits cochons
 								</Link>
 								<Link to="/les3cheveuxdOr" class="navbar-item has-text-black">
-									Les 3 cheuveux d'Or du Diable
+									Les 3 cheveux d'Or du Diable
 								</Link>
 								<Link to="/quandJetaisGrand" class="navbar-item has-text-black">
 									Quand j'étais Grand
