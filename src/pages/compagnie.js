@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 const CompagniePage = () => (
   <Layout>
     <SEO title="à propos" />
-    <section className="hero is-background-black">
+    <section className="hero has-background-black">
       <div className="hero-body">
         <div className="container">
           <div className="has-text-centered">

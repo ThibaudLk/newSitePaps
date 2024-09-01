@@ -8,7 +8,7 @@ import { Link } from "gatsby"
 const IndexPage = () => (
   <Layout>
     <SEO title="index" />
-    <section className="hero is-background-black has-text-white">
+    <section className="hero has-background-black has-text-white">
       <div className="hero-body">
         <div className="container">
           <div id="specnav" className="grid" style={{ marginBottom: 16}}>

@@ -16,7 +16,7 @@ const Navbar = ({ toggleNavbar, isActive }) => {
 			</header>
 			<nav className="navbar is-black is-size-4" role="navigation" aria-label="main navigation">
 				<div className="navbar-brand">
-					<button className={`navbar-burger burger link-button ${isActive ? 'is-active' : ''}`} aria-label="menu" aria-expanded="false" data-target="navbarTop" onClick={toggleNavbar}>
+					<button className={`has-text-white navbar-burger burger link-button ${isActive ? 'is-active' : ''}`} aria-label="menu" aria-expanded="false" data-target="navbarTop" onClick={toggleNavbar}>
 						<span aria-hidden="true"></span>
 						<span aria-hidden="true"></span>
 						<span aria-hidden="true"></span>
