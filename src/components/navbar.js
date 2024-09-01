@@ -12,7 +12,7 @@ const Navbar = ({ toggleNavbar, isActive }) => {
 					</Link>
 					<p>Théâtre du Petit Pierre</p>
 				</h1>
-				<p className="subtitle"> Spectacles conçus et réalisés par Françis L.Kagenaar </p>
+				<p className="subtitle"> Spectacles conçus et réalisés par Francis L.Kagenaar </p>
 			</header>
 			<nav className="navbar is-black is-size-4" role="navigation" aria-label="main navigation">
 				<div className="navbar-brand">
@@ -38,6 +38,9 @@ const Navbar = ({ toggleNavbar, isActive }) => {
 								<Link to="/petitChaperonRouge" class="navbar-item has-text-black">
 									Le petit chaperon rouge
 								</Link>
+								<Link to="/caperucitaRoja" class="navbar-item has-text-black">
+									Caperucita Roja
+								</Link>
 								<Link to="/lilyEtLeLoup" class="navbar-item has-text-black">
 									Lily et le Loup
 								</Link>
@@ -46,6 +49,9 @@ const Navbar = ({ toggleNavbar, isActive }) => {
 								</Link>
 								<Link to="/les3cheveuxdOr" class="navbar-item has-text-black">
 									Les 3 cheuveux d'Or du Diable
+								</Link>
+								<Link to="/quandJetaisGrand" class="navbar-item has-text-black">
+									Quand j'étais Grand
 								</Link>
 							</div>
 						</div>

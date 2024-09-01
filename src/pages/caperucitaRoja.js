@@ -8,15 +8,15 @@ import { StaticImage } from "gatsby-plugin-image"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteLeft, faQuoteRight, faDownload } from '@fortawesome/free-solid-svg-icons'
 
-const PetitChaperonRougePage = () => (
+const CaperucitaRojaPage = () => (
   <Layout>
     <SEO title="Spectacle du Petit Chaperon Rouge" />
     <section className="hero has-background-black has-text-justify has-text-white is-size-5 p-4">
-      <h1 className="title is-2 has-text-centered has-text-pcr">Le Petit Chaperon rouge</h1>
+      <h1 className="title is-2 has-text-centered has-text-pcr">Caperucita Roja</h1>
       <h3 className="has-text-centered"><i>Un spectacle écrit et mis en scène par Francis L.Kagenaar, comédien</i></h3>
       <div className="hero-body columns is-multiline is-vcentered">
         <div className="column is-offset-2 is-3 has-text-centered">
-          <StaticImage width={328} src="../images/affiches/afficheChap.jpg" alt="petitchap" style={{ borderRadius: 8 }} />
+          <StaticImage width={328} src="../images/affiches/afficheCapu.jpg" alt="caperucita roja" style={{ borderRadius: 8 }} />
         </div>
         <div className="column is-offset-1 is-5 is-12-mobile"
           data-sal="slide-left"
@@ -197,4 +197,4 @@ const PetitChaperonRougePage = () => (
   </Layout >
 )
 
-export default PetitChaperonRougePage;
+export default CaperucitaRojaPage;

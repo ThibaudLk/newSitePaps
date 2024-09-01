@@ -13,13 +13,17 @@ const Les3petitsCochonsPage = () => (
   <Layout>
     <SEO title="Spectacle des 3 petits cochons" />
     <section className="hero has-background-black has-text-justify has-text-white is-size-5 p-4">
-      <h1 className="title is-2 has-text-centered" style={{ color: "#FFC003" }}>Les 3 petits cochons</h1>
+      <h1 className="title is-2 has-text-centered" style={{ color: "#FFC003" }}>La véritable histoire des 3 petits cochons</h1>
       <h3 className="has-text-centered"><i>Un spectacle écrit et mis en scène par Francis L.Kagenaar, comédien</i></h3>
       <div className="hero-body columns is-multiline is-vcentered">
         <div className="column is-offset-2 is-3 has-text-centered">
           <StaticImage width={328} src="../images/affiches/affiche3tiCoch.jpg" alt="affiche les 3 petits Cochons" style={{ borderRadius: 8, border: "2px solid #FFC003" }} />
         </div>
-        <div className="column is-6 is-12-mobile">
+        <div className="column is-6 is-12-mobile"
+          data-sal="slide-left"
+          data-sal-duration="2000"
+          data-sal-delay="500"
+          data-sal-easing="ease-out-back">
           <p> Il y a tellement de versions des «Petits Cochons», que Francis, le comédien,
             ne sait laquelle raconter. Fort heureusement, le loup de cette histoire, devenu vieux
             et doux comme un agneau, va l’aider et lui permettre de raconter  enfin... <br />
@@ -39,8 +43,11 @@ const Les3petitsCochonsPage = () => (
 
     <section className="hero p-4">
       <div className="hero-body columns is-vcentered">
-        <div class="column is-6">
-        <h1 className="title is-3 has-text-centered m-2">Photos du spectacle</h1>
+        <div class="column is-6"
+          data-sal="slide-right"
+          data-sal-duration="2000"
+          data-sal-easing="ease-out-sine">
+          <h1 className="title is-3 has-text-centered m-2">Photos du spectacle</h1>
           <div class="columns is-multiline is-vcentered">
             <div className="column"><StaticImage width={512} src="../images/les3petitsCochons/Levieuxloupraconte.png" alt="images3petitsCochons" style={{ borderRadius: 4 }} /></div>
             <div className="column"><StaticImage width={512} src="../images/les3petitsCochons/LaMaisondeBulle.png" alt="images3petitsCochons" style={{ borderRadius: 4 }} /></div>
@@ -51,18 +58,19 @@ const Les3petitsCochonsPage = () => (
             <div className="column"><StaticImage width={512} src="../images/les3petitsCochons/MaisondeBill.png" alt="images3petitsCochons" style={{ borderRadius: 4 }} /></div>
           </div>
         </div>
-        <div className="column is-4 is-offset-1">
-          <div className="video">
-            <h1 className="title is-3 has-text-centered m-2">Extraits vidéo</h1>
-            <iframe
-              src={"https://www.youtube.com/embed/mAJ6yr1oiKY"}
-              width="100%" height={328}
-              title={"Vidéo des 3 Petits Cochons"}
-              webkitallowfullscreen="true"
-              mozallowfullscreen="true"
-              allowFullScreen
-            />
-          </div>
+        <div className="column is-4 is-offset-1"
+          data-sal="slide-left"
+          data-sal-duration="2000"
+          data-sal-easing="ease-out-back">
+          <h1 className="title is-3 has-text-centered m-2">Extraits vidéo</h1>
+          <iframe
+            src={"https://www.youtube.com/embed/mAJ6yr1oiKY"}
+            width="100%" height={328}
+            title={"Vidéo des 3 Petits Cochons"}
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowFullScreen
+          />
         </div>
       </div>
     </section>

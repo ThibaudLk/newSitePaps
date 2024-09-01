@@ -10,7 +10,7 @@ import { faQuoteLeft, faQuoteRight, faDownload } from '@fortawesome/free-solid-s
 
 const Les3cheveuxdOrPage = () => (
   <Layout>
-    <SEO title="Spectacle du Petit Chaperon Rouge" />
+    <SEO title="Spectacle des 3 cheveux d'Or du Diable" />
     <section className="hero has-background-black has-text-justify has-text-white is-size-5 p-4">
       <h1 className="title is-2 has-text-centered" style={{ color: "#FFC003" }}>Les 3 cheveux d’Or du Diable </h1>
       <h3 className="has-text-centered"><i>Un spectacle écrit et mis en scène par Francis L.Kagenaar, comédien - Mise en scène Pascal Godart</i></h3>
@@ -18,7 +18,11 @@ const Les3cheveuxdOrPage = () => (
         <div className="column is-offset-2 is-3 has-text-centered">
           <StaticImage width={328} src="../images/affiches/affiche3ChevOr.jpg" alt="affiche les 3 cheveux d'Or du Diable" style={{ borderRadius: 8 }} />
         </div>
-        <div className="column is-6 is-12-mobile">
+        <div className="column is-6 is-12-mobile"
+          data-sal="slide-left"
+          data-sal-duration="2000"
+          data-sal-delay="500"
+          data-sal-easing="ease-out-back">
           <p> On a prédit à un « enfant du bonheur » qu’il épouserait la fille du roi à l’âge de quatorze ans... Apprenant cela, ce roi, méchant et orgueilleux, cherche à se débarrasser de cet enfant trop encombrant. <br />
             Toutes ses tentatives ayant échouées, il décide alors de mettre l’enfant à l’épreuve: <br />
             L’enfant (devenu un valeureux jeune homme) ne pourra épouser sa fille que s’il parvient à lui ramener <b>trois cheveux d’or de la tête du diable...</b>
@@ -27,16 +31,16 @@ const Les3cheveuxdOrPage = () => (
       </div>
       <div className="publicMaternellePrimaire" style={{ backgroundColor: "#FFC003" }}> à partir de 5 ans </div>
       <div className="columns">
-      <div className="column is-offset-1 is-5">
-        <h3 className="title is-4 has-text-centered has-text-pcr m-2"> Notes sur l'histoire </h3>
-        <p><i> L’univers symbolique que nous propose ce conte est <b>particulièrement riche </b>et en fait l’un des plus<b> fascinants</b> que nous aient légués les <b>frères Grimm</b>.
-          <br />Afin de s’accomplir, le héros entame une quête. Il laisse derrière lui tout ce qui constituait jusque là son monde. Il traverse des épreuves, risque sa vie, joue son destin. Son périple constitue une <b>initiation</b>. Sur ses pas, l’enfant  pressent ce que signifiera pour lui l’entrée dans la vie adulte.
-        </i></p>
-      </div>
-      <div className="column is-offset-1 is-5">
-        <h3 className="title is-4 has-text-centered has-text-pcr m-2"> Le spectacle </h3>
-        <p> <i>Cette histoire est mise en scène avec talent et originalité par Pascal Godart. Ce conte extrêmement foisonnant aux personnages riches en couleur nécessitait une mise en scène vivante et dynamique :<br />
-          « L’utilisation des instruments de musique (violoncelle, accordéons, maracas) et l’énergie communicative de son interprète <b>Francis L.Kagenaar</b> apporte encore une dimension supplémentaire à ce récit passionnant que l’on pourrait qualifier de « <b>conte théâtralisé</b> » ». 
+        <div className="column is-offset-1 is-5">
+          <h3 className="title is-4 has-text-centered has-text-pcr m-2"> Notes sur l'histoire </h3>
+          <p><i> L’univers symbolique que nous propose ce conte est <b>particulièrement riche </b>et en fait l’un des plus<b> fascinants</b> que nous aient légués les <b>frères Grimm</b>.
+            <br />Afin de s’accomplir, le héros entame une quête. Il laisse derrière lui tout ce qui constituait jusque là son monde. Il traverse des épreuves, risque sa vie, joue son destin. Son périple constitue une <b>initiation</b>. Sur ses pas, l’enfant  pressent ce que signifiera pour lui l’entrée dans la vie adulte.
+          </i></p>
+        </div>
+        <div className="column is-offset-1 is-5">
+          <h3 className="title is-4 has-text-centered has-text-pcr m-2"> Le spectacle </h3>
+          <p> <i>Cette histoire est mise en scène avec talent et originalité par Pascal Godart. Ce conte extrêmement foisonnant aux personnages riches en couleur nécessitait une mise en scène vivante et dynamique :<br />
+            « L’utilisation des instruments de musique (violoncelle, accordéons, maracas) et l’énergie communicative de son interprète <b>Francis L.Kagenaar</b> apporte encore une dimension supplémentaire à ce récit passionnant que l’on pourrait qualifier de « <b>conte théâtralisé</b> » ».
           </i></p>
           <p style={{ textAlign: "right" }}><i><b>Pascal Godart</b> </i> </p>
         </div>
@@ -45,8 +49,11 @@ const Les3cheveuxdOrPage = () => (
 
     <section className="hero p-4">
       <div className="hero-body columns is-vcentered">
-        <div class="column is-6">
-        <h1 className="title is-3 has-text-centered has-text-pcr m-2">Photos du spectacle</h1>
+        <div class="column is-6"
+          data-sal="slide-right"
+          data-sal-duration="2000"
+          data-sal-easing="ease-out-sine">
+          <h1 className="title is-3 has-text-centered has-text-pcr m-2">Photos du spectacle</h1>
           <div class="columns is-multiline is-vcentered">
             <div className="column"><StaticImage width={512} src="../images/3cheveuxdOr/1485.jpg" alt="image3cheveuxdOr" style={{ borderRadius: 4 }} /></div>
             <div className="column"><StaticImage width={512} src="../images/3cheveuxdOr/1468.jpg" alt="image3cheveuxdOr" style={{ borderRadius: 4 }} /></div>
@@ -57,22 +64,22 @@ const Les3cheveuxdOrPage = () => (
             <div className="column is-4"><StaticImage width={512} src="../images/3cheveuxdOr/1595.jpg" alt="image3cheveuxdOr" style={{ borderRadius: 4 }} /></div>
           </div>
         </div>
-        <div className="column is-4 is-offset-1">
-          <div className="video">
-            <h1 className="title is-3 has-text-centered has-text-pcr m-2">Extraits vidéo</h1>
-            <iframe
-              src={"https://www.youtube.com/embed/9kN3haXy0lQ"}
-              width="100%" height={328}
-              title={"Vidéo des 3 cheveux d'Or"}
-              webkitallowfullscreen="true"
-              mozallowfullscreen="true"
-              allowFullScreen
-            />
-          </div>
+        <div className="column is-4 is-offset-1" data-sal="slide-left"
+          data-sal-duration="2000"
+          data-sal-easing="ease-out-back">
+          <h1 className="title is-3 has-text-centered has-text-pcr m-2">Extraits vidéo</h1>
+          <iframe
+            src={"https://www.youtube.com/embed/9kN3haXy0lQ"}
+            width="100%" height={328}
+            title={"Vidéo des 3 cheveux d'Or"}
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowFullScreen
+          />
         </div>
       </div>
     </section>
-    <section className="hero has-background-white p-4"  style={{ borderTop: "4px solid #FFC003" }}>
+    <section className="hero has-background-white p-4" style={{ borderTop: "4px solid #FFC003" }}>
       <h1 className="title is-2 has-text-centered m-2">Extraits du Livre d'Or</h1>
       <div className="hero-body columns is-multiline">
         <div className="column is-offset-2 is-8"
@@ -126,6 +133,9 @@ const Les3cheveuxdOrPage = () => (
               <div className="column">
                 <a href="/pdf/tarifs-theatre-du-petit-pierre.pdf" target="_blank"><p><FontAwesomeIcon icon={faDownload} size="2x" /> Consulter le PDF des tarifs </p></a>
               </div>
+              <div className="column">
+                  <a href="/pdf/dossier-presse-3cheveuxDor.pdf" target="_blank"><p><FontAwesomeIcon icon={faDownload} size="2x" /> Télécharger le dossier de presse et la fiche technique</p></a>
+                </div>
             </div>
           </div>
         </div>

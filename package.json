@@ -15,12 +15,14 @@
     "gatsby-plugin-image": "^3.13.1",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-sass": "^6.13.1",
+    "gatsby-plugin-scroll-reveal-with-new-react": "^0.0.8",
     "gatsby-plugin-sharp": "^5.13.1",
     "gatsby-source-filesystem": "^5.13.1",
     "gatsby-transformer-sharp": "^5.13.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scroll": "^1.9.0",
+    "sal.js": "^0.8.5",
     "sass": "^1.77.2"
   },
   "devDependencies": {

@@ -10,7 +10,7 @@ import { faQuoteLeft, faQuoteRight, faDownload } from '@fortawesome/free-solid-s
 
 const LilyEtLeLoupPage = () => (
   <Layout>
-    <SEO title="Spectacle du Petit Chaperon Rouge" />
+    <SEO title="Spectacle de Lily et le Loup" />
     <section className="hero has-background-black has-text-justify has-text-white is-size-5 p-4">
       <h1 className="title is-2 has-text-lily has-text-centered">Lily et le Loup</h1>
       <h3 className="has-text-centered"><i>Un spectacle écrit et mis en scène par Francis L.Kagenaar, comédien</i></h3>
@@ -18,7 +18,11 @@ const LilyEtLeLoupPage = () => (
         <div className="column is-offset-2 is-3 has-text-centered">
           <StaticImage width={328} src="../images/affiches/afficheLily.jpg" alt="affiche Lily et le Loup" style={{ borderRadius: 8, border: "2px solid white" }} />
         </div>
-        <div className="column is-6 is-12-mobile">
+        <div className="column is-6 is-12-mobile"
+          data-sal="slide-left"
+          data-sal-duration="2000"
+          data-sal-delay="500"
+          data-sal-easing="ease-out-back">
           <p> Maître Adalbert Tripette et Dame Perrine ont six jolies
             petites filles rieuses et joueuses.
             Dame Perrine qui attend  de nouveau un bébé a très peur que ce soit encore une petite fille car
@@ -40,8 +44,11 @@ const LilyEtLeLoupPage = () => (
 
     <section className="hero p-4">
       <div className="hero-body columns is-vcentered">
-        <div class="column is-6">
-        <h1 className="title is-3 has-text-centered has-text-lily m-2">Photos du spectacle</h1>
+        <div class="column is-6"
+          data-sal="slide-right"
+          data-sal-duration="2000"
+          data-sal-easing="ease-out-sine">
+          <h1 className="title is-3 has-text-centered has-text-lily m-2">Photos du spectacle</h1>
           <div class="columns is-multiline is-vcentered">
             <div className="column"><StaticImage width={512} src="../images/lily/dpavecsesfilles.jpg" alt="imageLily" style={{ borderRadius: 4 }} /></div>
             <div className="column"><StaticImage width={512} src="../images/lily/ombresavecpoules.jpg" alt="imageLily" style={{ borderRadius: 4 }} /></div>
@@ -51,18 +58,18 @@ const LilyEtLeLoupPage = () => (
             <div className="column"><StaticImage width={512} src="../images/lily/dpaccouche.jpg" alt="imageLily" style={{ borderRadius: 4 }} /></div>
           </div>
         </div>
-        <div className="column is-4 is-offset-1">
-          <div className="video">
-            <h1 className="title is-3 has-text-centered has-text-lily m-2">Extraits vidéo</h1>
-            <iframe
-              src={"https://www.youtube.com/embed/bgG6iz2bEjs"}
-              width="100%" height={328}
-              title={"Vidéo du Petit Chaperon Rouge"}
-              webkitallowfullscreen="true"
-              mozallowfullscreen="true"
-              allowFullScreen
-            />
-          </div>
+        <div className="column is-4 is-offset-1" data-sal="slide-left"
+          data-sal-duration="2000"
+          data-sal-easing="ease-out-back">
+          <h1 className="title is-3 has-text-centered has-text-lily m-2">Extraits vidéo</h1>
+          <iframe
+            src={"https://www.youtube.com/embed/BVDMOjvcDc4"}
+            width="100%" height={328}
+            title={"Vidéo de Lily et le Loup"}
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowFullScreen
+          />
         </div>
       </div>
     </section>
@@ -82,6 +89,7 @@ const LilyEtLeLoupPage = () => (
         <div className="column is-4"
           data-sal="slide-down"
           data-sal-duration="2000"
+          data-sal-delay="500"
           data-sal-easing="ease-out-sine">
           <FontAwesomeIcon icon={faQuoteLeft} size="2x" />
           <p className="is-italic">
@@ -92,6 +100,7 @@ const LilyEtLeLoupPage = () => (
         <div className="column is-4"
           data-sal="slide-down"
           data-sal-duration="2000"
+          data-sal-delay="1000"
           data-sal-easing="ease-out-sine">
           <FontAwesomeIcon icon={faQuoteLeft} size="2x" />
           <p className="is-italic">
@@ -102,6 +111,7 @@ const LilyEtLeLoupPage = () => (
         <div className="column is-offset-2 is-4"
           data-sal="slide-down"
           data-sal-duration="2000"
+          data-sal-delay="1500"
           data-sal-easing="ease-out-sine">
           <FontAwesomeIcon icon={faQuoteLeft} size="2x" />
           <p className="is-italic">
@@ -112,6 +122,7 @@ const LilyEtLeLoupPage = () => (
         <div className="column is-offset-1 is-4"
           data-sal="slide-down"
           data-sal-duration="2000"
+          data-sal-delay="2000"
           data-sal-easing="ease-out-sine">
           <FontAwesomeIcon icon={faQuoteLeft} size="2x" />
           <p className="is-italic">
