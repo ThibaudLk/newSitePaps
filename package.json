@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "new-site-paps",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Un joli site pour le Theatre du Petit Pierre",
+  "version": "1.0.0",
+  "author": "DevDurable",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
@@ -43,9 +43,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/ThibaudLk/newSitePaps"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/ThibaudLk/newSitePaps/issues"
   }
 }
