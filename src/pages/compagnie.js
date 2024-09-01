@@ -22,7 +22,7 @@ const CompagniePage = () => (
           </div>
           <br />
           <div className="columns">
-            <div className="column is-full card">
+            <div className="column is-full card has-background-white">
               <div class="card-content">
                 <div class="media">
                   <div class="media-left">
@@ -44,7 +44,7 @@ const CompagniePage = () => (
             </div>
           </div>
           <div className="columns">
-            <div className="column card">
+            <div className="column card has-background-white">
               <div class="card-content">
                 <div class="media">
                   <div class="media-left">
@@ -64,7 +64,7 @@ const CompagniePage = () => (
                 </div>
               </div>
             </div>
-            <div className="column card">
+            <div className="column card has-background-white">
               <div class="card-content">
                 <div class="media">
                   <div class="media-left">
@@ -85,7 +85,7 @@ const CompagniePage = () => (
               </div>
             </div>
 
-            <div className="column card">
+            <div className="column card has-background-white">
               <div class="card-content">
                 <div class="media">
                   <div class="media-left">

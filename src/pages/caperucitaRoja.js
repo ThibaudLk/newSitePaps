@@ -13,7 +13,7 @@ const CaperucitaRojaPage = () => (
     <SEO title="Spectacle du Petit Chaperon Rouge" />
     <section className="hero has-background-black has-text-justify has-text-white is-size-5 p-4">
       <h1 className="title is-2 has-text-centered has-text-pcr">Caperucita Roja</h1>
-      <h3 className="has-text-centered"><i>Un spectacle écrit et mis en scène par Francis L.Kagenaar, comédien</i></h3>
+      <h3 className="has-text-centered"><i>Teatro de títeres « a la vista »</i></h3>
       <div className="hero-body columns is-multiline is-vcentered">
         <div className="column is-offset-2 is-3 has-text-centered">
           <StaticImage width={328} src="../images/affiches/afficheCapu.jpg" alt="caperucita roja" style={{ borderRadius: 8 }} />
@@ -23,16 +23,18 @@ const CaperucitaRojaPage = () => (
           data-sal-duration="2000"
           data-sal-delay="500"
           data-sal-easing="ease-out-back">
-          <p> La plus célèbre de toutes les histoires méritait une attention toute particulière. C’est chose faite avec cette adaptation <b>poétique, musicale, très colorée </b>et <b>remplie d’humour</b> du<b> Petit Chaperon rouge</b>.<br />
-            Dans cette version des frères Grimm, (contrairement à celle de Perrault), le Petit Chaperon rouge ressort du ventre du loup: l’histoire est ainsi « rassurante » et, comme dirait le célèbre psychanalyste Bruno Bettelheim, « réparatrice ».
-          </p>
+          <p>
+            <b>...el más conocido de los cuentos merecía que nos detuviéramos… </b> <br />
+            Esta historia de Caperucita roja posee tanto una dimensión simbólica como una función iniciadora
+            importante. Está en nuestras manos honrar todas las fuerzas de las imágenes que nos brinda este cuento. </p>
         </div>
       </div>
-      <div className="publicMaternellePrimaire" style={{ backgroundColor: "red" }}> public : maternelles & primaires</div>
+      <div className="publicMaternellePrimaire" style={{ backgroundColor: "red" }}>Todo público a partir de 2 años y media</div>
       <div className="column is-offset-2 is-8">
-        <h3 className="title is-4 has-text-centered has-text-pcr m-2"> Notes de mise en scène :</h3>
-        <p><i> « Mon souci est de préserver le sens profond de ce conte, de respecter son <b>rôle éducatif</b> tout en lui donnant un aspect <b>totalement ludique</b>. L’utilisation de la marionnette « construite » et utilisée « à vue » permet une «<b> distanciation </b>»  du jeune public avec les différentes émotions vécues par les personnages.<br />
-          Ainsi, l’enfant peut par exemple <b>jouer à se faire peur sans n’avoir jamais peur lui-même</b> et passer par toute une palette d’émotions (joie, tristesse, colère etc…). »</i></p><p style={{ textAlign: "right" }}><i>Francis L.Kagenaar</i></p>
+        <h3 className="title is-4 has-text-centered has-text-pcr m-2">El origen</h3>
+        <p><i> Me inspiré mucho de los escritos de Catherine Dasté que considera que el teatro para niños es como una síntesis de las artes, así como en los textos de Bruno Bettelheim que, además de dar al cuento
+          virtudes terapéuticas, declara que el cuento de hadas es ante todo una obra de arte. De esta manera nació esta versión de Caperucita roja, que a la vez de ser fiel a la historia en la versión de los hermanos Grimm, es un espectáculo visual, musical y teatral totalmente lúdico.</i>
+        </p>
       </div>
     </section>
 
@@ -42,7 +44,7 @@ const CaperucitaRojaPage = () => (
           data-sal="slide-right"
           data-sal-duration="2000"
           data-sal-easing="ease-out-sine">
-          <h1 className="title is-3 has-text-centered has-text-pcr m-2">Photos du spectacle</h1>
+          <h1 className="title is-3 has-text-centered has-text-pcr m-2">Fotos del espectáculo</h1>
           <div class="columns is-multiline is-ventered">
             <div className="column"><StaticImage width={512} src="../images/petitChap/dsc2431.jpg" alt="imagePetitChaperon" style={{ borderRadius: 4 }} /></div>
             <div className="column"><StaticImage width={512} src="../images/petitChap/loup25.jpg" alt="imagePetitChaperon" style={{ borderRadius: 4 }} /></div>
@@ -57,7 +59,7 @@ const CaperucitaRojaPage = () => (
           data-sal="slide-left"
           data-sal-duration="2000"
           data-sal-easing="ease-out-back">
-          <h1 className="title is-3 has-text-centered has-text-pcr m-2">Extraits vidéo</h1>
+          <h1 className="title is-3 has-text-centered has-text-pcr m-2">Extractos Video</h1>
           <iframe
             src={"https://www.youtube.com/embed/bgG6iz2bEjs"}
             width="100%" height={328}
@@ -70,7 +72,7 @@ const CaperucitaRojaPage = () => (
       </div>
     </section>
     <section className="hero has-background-white p-4">
-      <h1 className="title is-2 has-text-centered m-2">Extraits du Livre d'Or</h1>
+      <h1 className="title is-2 has-text-centered m-2">Extractos del libro de visitas</h1>
       <div className="hero-body columns is-multiline">
         <div className="column is-4"
           data-sal="slide-down"
@@ -131,61 +133,32 @@ const CaperucitaRojaPage = () => (
     <section className="hero p-4" style={{ backgroundColor: "red" }}>
       <div className="hero-body columns">
         <div className="card column has-background-white">
-          <h1 className="title is-2 has-text-centered m-2 has-text-secondary">La forme</h1>
+          <h1 className="title is-2 has-text-centered m-2 has-text-secondary">Roja, roja, roja… caperuza roja…</h1>
           <div className="card-content">
-            <div className="content">
-              <p> L’histoire est racontée à l’aide de <b>marionnettes-objets</b> qui sont manipulées « <b>à vue</b> ».<br />
-                Dans ce spectacle d’une grande richesse où la <b>couleur est omniprésente</b>, le décor s’inspire de l’œuvre de <b>Miro</b> (le <b>rouge</b> est tout particulièrement mis à l’honneur).<br />
-                La <b>musique</b> ponctue le récit et la <b>chanson</b> du <b>Petit Chaperon rouge</b> accompagne la petite héroïne tout au long de ce spectacle poétique et coloré.</p>
-            </div>
-          </div>
-        </div>
-        <div className="card column has-background-white">
-          <h1 className="title is-2 has-text-centered m-2 has-text-secondary">L’espace scénique</h1>
-          <div className="card-content">
-            <div className="content">
-              <p>Il s’agit d’un « boite noire » (3m x 3m):  L’espace est délimité par des rideaux noirs sur les côtés et en fond de scène, ainsi que par un sol noir.  La lumière éclaire l’espace scénique sans déborder sur la salle ce qui permet une <b>très bonne mise en valeur du spectacle</b>.</p>
-            </div>
-            <br />
-            <h1 className="title is-4 has-text-centered m-2 has-text-secondary">Modalités techniques</h1>
             <div className="content">
               <p>
-                <u>Durée du spectacle :</u> <b>45 minutes</b> <br />
-                <u>Temps d’installation :</u> <b>1h00</b><br />
-                <u>Espace scénique :</u> <b>4 m d’ouverture - 3 m de profondeur</b><br />
-                Obscurité non indispensable, mais pénombre souhaitée.
+                Así comienza con una canción esta historia tan conocida como el “lobo blanco” (más conocido
+                incluso que la ruda)...pero sh...hete aquí ...que llega...está en la caja, te lo juro...<br />
+                ...un lobo para armar…<br />
+                ...incluso tiene el modo de empleo...<br />
+                Pero sí, os lo juro es la verdadera historia de Caperucita roja, con el bizcocho, el tarrito de mantequilla, el picaporte, la abuelita, el cazador...y encima este lobo que entre dos risas se deleita de asustarnos…
               </p>
             </div>
           </div>
         </div>
         <div className="card column has-background-white">
-          <h1 className="title is-2 has-text-centered m-2 has-text-secondary">Adaptabilité</h1>
+          <h1 className="title is-2 has-text-centered m-2 has-text-secondary">La actuación</h1>
           <div className="card-content">
             <div className="content">
-              <p>La construction et la manipulation « à vue » des marionnettes permet de <b>s’adapter à l’âge des enfants</b>. <br />
-                Ainsi le loup d’un spectacle proposé aux petites sections (2-3 ans) n’est plus le même que celui présenté aux grandes sections (5-6 ans). Il n’y a plus aucune limite à son côté effrayant quand il s’agit d’enfants plus grands encore qui peuvent hurler de peur (et de plaisir). Si ce spectacle qui <b>fait l’unanimité</b> est jubilatoire pour les enfants, il l’est aussi  pour les adultes, et également pour le comédien qui s’en donne à cœur joie et mène son public où il veut, un peu comme un chef d’orchestre mène son orchestre.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="columns">
-        <div className="card column is-offset-1 is-10 has-background-white">
-          <h1 className="title is-2 has-text-centered m-2 has-text-secondary">Quelques pistes d’exploitation pédagogique</h1>
-          <div className="card-content">
-            <div className="content">
-              <p> L’histoire peut être abordée <b>en amont</b> : le spectacle sera alors l’aboutissement d’un travail effectué sur les différentes thématiques du conte. Le spectacle peut aussi être le <b>point de départ</b> d’un projet: Différents axes de travail peuvent alors être exploités en fonction de l’âge des enfants et des objectifs  des enseignants.<br />
-                <b>Pour les plus petits</b> : travail sur le fond et la chronologie de l’histoire - travail sur les couleurs (et plus particulièrement le rouge qui est bien présent dans le spectacle) - travail sur le « schéma corporel »  (la construction des personnages dans le spectacle est un bon support) - Le thème du loup et bien d’autres thèmes peuvent être abordés…<br />
-                <b>Pour les plus grands </b>: <br /><br />
-                <u>Sur le spectacle :</u>  - Comment le spectacle s’approprie cette histoire (moyens d’expression choisis, techniques utilisées etc…) - Développement de thématiques liées au spectacle (les couleurs, le peintre Miro, la construction « à vue » de marionnettes, l’utilisation de la voix (en direct et enregistrée)) - Apprentissage des chansons. <br />
-                <br />
-                <u>Sur l’histoire :</u> - Comparaison avec d’autres versions du Petit Chaperon rouge - Exploitation du vocabulaire - Transformations possibles de l’histoire  (Nous mettons à la disposition des enseignants une bibliothèque de très nombreuses versions du Petit Chaperon rouge) - Les enfants peuvent à leur tour raconter cette histoire en utilisant d’autres techniques (pate à modeler, grandes marionnettes etc…)
-                Il y a de très nombreuses suites pédagogiques et créatives à donner à ce spectacle, que ce soit autour de la compréhension de l’histoire, de l’expression, ou dans l’utilisation de techniques diverses. </p>
+              <p>¡Sí! El espectáculo es adecuado tanto para niños de 2 1/ 2  años como para niños de 8 años y más. En efecto el espectáculo puede adaptarse según edades diferentes…así el lobo “montado a la vista”  no es exactamente lo mismo frente a niños de 3 años que ante niños mayores...para un público
+                heterogéneo, la actuación es ante todo “ajustada” en función de los más pequeños. El actor enriquece y adapta su rol según el público.
+              </p>
               <div className="columns has-text-pcr">
                 <div className="column is-offset-1">
-                  <a href="/pdf/tarifs-theatre-du-petit-pierre.pdf" target="_blank"><p><FontAwesomeIcon icon={faDownload} size="2x" /> Consulter le PDF des tarifs </p></a>
+                  <a href="/pdf/tarifs-theatre-du-petit-pierre.pdf" target="_blank"><p><FontAwesomeIcon icon={faDownload} size="2x" /> Consultar el PDF de los precios </p></a>
                 </div>
                 <div className="column">
-                  <a href="/pdf/dossier-de-presse-fiche-technique-pcr.pdf" target="_blank"><p><FontAwesomeIcon icon={faDownload} size="2x" /> Télécharger le dossier de presse et la fiche technique</p></a>
+                  <a href="/pdf/dossier-de-presse-fiche-technique-pcr.pdf" target="_blank"><p><FontAwesomeIcon icon={faDownload} size="2x" /> Descargar el kit de prensa</p></a>
                 </div>
               </div>
             </div>
