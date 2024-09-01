@@ -38,10 +38,7 @@ const PetitChaperonRougePage = () => (
 
     <section className="hero p-4">
       <div className="hero-body columns is-vcentered">
-        <div class="column is-6"
-          data-sal="slide-right"
-          data-sal-duration="2000"
-          data-sal-easing="ease-out-sine">
+        <div class="column is-6">
           <h1 className="title is-3 has-text-centered has-text-pcr m-2">Photos du spectacle</h1>
           <div class="columns is-multiline is-ventered">
             <div className="column"><StaticImage width={512} src="../images/petitChap/dsc2431.jpg" alt="imagePetitChaperon" style={{ borderRadius: 4 }} /></div>
