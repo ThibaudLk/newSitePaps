@@ -60,7 +60,7 @@ const QuandJetaisGrandPage = () => (
           <iframe
             src={"https://www.youtube.com/embed/8LNmA4wVzhI"}
             width="100%" height={328}
-            title={"Vidéo de Quand j'étais grand"}
+            title={"Vidéo de Quand jétais grand"}
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
             allowFullScreen
