@@ -10,7 +10,7 @@
 module.exports = {
   siteMetadata: {
     title: `Théâtre du Petit Pierre`,
-    description: `Un joli site pour le TPP`,
+    description: `Le Théâtre du Petit Pierre a été créer par Francis L. Kagenaar. Il écrit et interprète de nombreuses pièces qui rassemblent humour, poésie et musique à destination des petits et des grands`,
     keywords: `Théâtre, Spectacles pour enfants, petit chaperon rouge, Francis Kagenaar, Les trois petits cochons, Lily et le loup, loire-atlantique, écoles, nantes, saint-nazaire, redon`,
     author: `@devDurable`,
     siteUrl: `https://theatredupetitpierre.netlify.app/`,
