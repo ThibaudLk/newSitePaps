@@ -65,6 +65,7 @@ const QuandJetaisGrandPage = () => (
             mozallowfullscreen="true"
             allowFullScreen
           />
+          <p>(Si la vidéo n'est pas disponible, retrouvez la sur youtube à cette adresse : < a href="https:/www.youtube.com/watch?v=8LNmA4wVzhI" target="_blank">https:/www.youtube.com/watch?v=8LNmA4wVzhI)</a></p>
         </div>
       </div>
     </section>
