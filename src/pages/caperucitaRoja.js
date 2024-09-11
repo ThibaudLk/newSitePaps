@@ -58,7 +58,7 @@ const CaperucitaRojaPage = () => (
           data-sal-easing="ease-out-back">
           <h1 className="title is-3 has-text-centered has-text-pcr m-2">Extractos Video</h1>
           <iframe
-            src={"https://www.youtube.com/embed/bgG6iz2bEjs"}
+            src={"https://www.youtube.com/embed/X_dDFfkv-4A"}
             width="100%" height={328}
             title={"Vidéo du Petit Chaperon Rouge"}
             webkitallowfullscreen="true"

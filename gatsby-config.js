@@ -11,8 +11,10 @@ module.exports = {
   siteMetadata: {
     title: `Théâtre du Petit Pierre`,
     description: `Un joli site pour le TPP`,
+    keywords: `Théâtre, Spectacles pour enfants, petit chaperon rouge, Francis Kagenaar, Les trois petits cochons, Lily et le loup, loire-atlantique, écoles, nantes, saint-nazaire, redon`,
     author: `@devDurable`,
     siteUrl: `https://theatredupetitpierre.netlify.app/`,
+    keyw
   },
   plugins: [
     `gatsby-plugin-image`,
