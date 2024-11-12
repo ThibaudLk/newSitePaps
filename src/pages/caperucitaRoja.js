@@ -58,7 +58,7 @@ const CaperucitaRojaPage = () => (
           data-sal-easing="ease-out-back">
           <h1 className="title is-3 has-text-centered has-text-pcr m-2">Extractos Video</h1>
           <iframe
-            src={"https://www.youtube.com/embed/X_dDFfkv-4A"}
+            src={"https://www.youtube.com/embed/LmPS2AUyDhw"}
             width="100%" height={328}
             title={"Caperucita Roja"}
             webkitallowfullscreen="true"
