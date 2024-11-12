@@ -60,7 +60,7 @@ const CaperucitaRojaPage = () => (
           <iframe
             src={"https://www.youtube.com/embed/X_dDFfkv-4A"}
             width="100%" height={328}
-            title={"Vidéo du Petit Chaperon Rouge"}
+            title={"Caperucita Roja"}
             webkitallowfullscreen="true"
             mozallowfullscreen="true"
             allowFullScreen
